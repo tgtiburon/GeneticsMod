@@ -1,0 +1,16 @@
+[
+{
+  "modid": "GeneticsMod",
+  "name": "Genetics Mod",
+  "description": "Future Genetics Mod.",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [" TgTiburon " ],
+  "credits": "Pahimar's Tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
