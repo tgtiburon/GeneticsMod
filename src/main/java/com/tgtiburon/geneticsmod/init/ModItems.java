@@ -1,8 +1,6 @@
 package com.tgtiburon.geneticsmod.init;
 
-import com.tgtiburon.geneticsmod.item.ItemCreeptonianSword;
-import com.tgtiburon.geneticsmod.item.ItemGeneticsMod;
-import com.tgtiburon.geneticsmod.item.ItemWhitePeaPlant;
+import com.tgtiburon.geneticsmod.item.*;
 import com.tgtiburon.geneticsmod.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -19,11 +17,17 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems
 {
     public static final ItemGeneticsMod whitePeaPlant = new ItemWhitePeaPlant();
+    public static final ItemGeneticsMod redPeaPlant = new ItemRedPeaPlant();
+    public static final ItemGeneticsMod pinkPeaPlant = new ItemPinkPeaPlant();
+
     public static final ItemGeneticsMod creeptonianSword = new ItemCreeptonianSword();
     public static void init()
     {
         GameRegistry.registerItem(whitePeaPlant, "WhitePeaPlant");
+        GameRegistry.registerItem(redPeaPlant, "RedPeaPlant");
+        GameRegistry.registerItem(pinkPeaPlant, "PinkPeaPlant");
         GameRegistry.registerItem(creeptonianSword, "CreeptonianSword");
+
 
 
     }//end public static void init()
