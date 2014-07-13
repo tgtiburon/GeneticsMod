@@ -1,5 +1,6 @@
 package com.tgtiburon.geneticsmod.item;
 
+import com.tgtiburon.geneticsmod.creativetab.CreativeTabGeneticsMod;
 import com.tgtiburon.geneticsmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -20,6 +21,7 @@ public class ItemGeneticsMod extends Item
     public ItemGeneticsMod()
     {
         super();
+        this.setCreativeTab(CreativeTabGeneticsMod.GENETICSMOD_TAB);
 
     }
 

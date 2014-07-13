@@ -1,6 +1,7 @@
 package com.tgtiburon.geneticsmod;
 
 import com.tgtiburon.geneticsmod.handler.ConfigurationHandler;
+import com.tgtiburon.geneticsmod.init.ModBlocks;
 import com.tgtiburon.geneticsmod.init.ModItems;
 import com.tgtiburon.geneticsmod.proxy.IProxy;
 import com.tgtiburon.geneticsmod.reference.Reference;
@@ -41,6 +42,8 @@ public class GeneticsMod
         // on the bus (event system)
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler() );
         ModItems.init(); //Lets initialize our Items
+        ModBlocks.init(); //Lets initialize our blocks
+
 
         LogHelper.warn("Pre Initialization Complete!");
 

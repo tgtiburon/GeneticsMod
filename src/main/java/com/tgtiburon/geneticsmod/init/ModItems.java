@@ -3,6 +3,7 @@ package com.tgtiburon.geneticsmod.init;
 import com.tgtiburon.geneticsmod.item.ItemCreeptonianSword;
 import com.tgtiburon.geneticsmod.item.ItemGeneticsMod;
 import com.tgtiburon.geneticsmod.item.ItemWhitePeaPlant;
+import com.tgtiburon.geneticsmod.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -12,7 +13,9 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 // Initialize my items
 
+//This prevents other mods from tinkering with your mod
 
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
     public static final ItemGeneticsMod whitePeaPlant = new ItemWhitePeaPlant();

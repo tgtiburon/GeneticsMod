@@ -1,27 +1,32 @@
-[16:17:32] [main/INFO]: Setting user: ForgeDevName
-[16:17:33] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:17:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Genetics Mod
-[16:17:40] [Sound Library Loader/INFO]: Sound engine started
-[16:17:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:17:41] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:17:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Genetics Mod
-[16:17:41] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:17:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:17:42] [Sound Library Loader/INFO]: Sound engine started
-[16:17:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:17:49] [Server thread/INFO]: Generating keypair
-[16:17:49] [Server thread/INFO]: Preparing start region for level 0
-[16:17:50] [Server thread/INFO]: Changing view distance to 16, from 10
-[16:17:50] [Server thread/INFO]: ForgeDevName[local:E:6bfa9be1] logged in with entity id 219 at (-503.31360012371414, 4.0, -118.72247964283638)
-[16:17:50] [Server thread/INFO]: ForgeDevName joined the game
-[16:18:21] [Server thread/INFO]: Saving and pausing game...
-[16:18:21] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Overworld
-[16:18:21] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Nether
-[16:18:21] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/The End
-[16:18:22] [Server thread/INFO]: Stopping server
-[16:18:22] [Server thread/INFO]: Saving players
-[16:18:22] [Server thread/INFO]: Saving worlds
-[16:18:22] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Overworld
-[16:18:22] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Nether
-[16:18:22] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/The End
-[16:18:25] [Client thread/INFO]: Stopping!
+[00:17:01] [main/INFO]: Setting user: ForgeDevName
+[00:17:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:17:03] [Client thread/ERROR]: Couldn't initialize twitch stream
+[00:17:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Genetics Mod
+[00:17:08] [Sound Library Loader/INFO]: Sound engine started
+[00:17:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:17:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[00:17:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Genetics Mod
+[00:17:10] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[00:17:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:17:11] [Sound Library Loader/INFO]: Sound engine started
+[00:17:16] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:17:16] [Server thread/INFO]: Generating keypair
+[00:17:16] [Server thread/INFO]: Preparing start region for level 0
+[00:17:17] [Server thread/INFO]: Changing view distance to 16, from 10
+[00:17:17] [Server thread/INFO]: ForgeDevName[local:E:1200dea0] logged in with entity id 205 at (-492.78588707459767, 4.0, -108.76056435837077)
+[00:17:17] [Server thread/INFO]: ForgeDevName joined the game
+[00:18:07] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[00:18:10] [Client thread/INFO]: [CHAT] /time <set|add> <value>
+[00:18:19] [Server thread/INFO]: [ForgeDevName: Set the time to 6000]
+[00:18:19] [Client thread/INFO]: [CHAT] Set the time to 6000
+[00:18:23] [Server thread/INFO]: Saving and pausing game...
+[00:18:23] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Overworld
+[00:18:23] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Nether
+[00:18:23] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/The End
+[00:18:24] [Server thread/INFO]: Stopping server
+[00:18:24] [Server thread/INFO]: Saving players
+[00:18:24] [Server thread/INFO]: Saving worlds
+[00:18:24] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Overworld
+[00:18:24] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/Nether
+[00:18:24] [Server thread/INFO]: Saving chunks for level 'Flat Test World'/The End
+[00:18:25] [Client thread/INFO]: Stopping!
