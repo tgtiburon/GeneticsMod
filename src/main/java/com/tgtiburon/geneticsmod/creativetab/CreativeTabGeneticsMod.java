@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
  */
 public class CreativeTabGeneticsMod
 {
-    public static final CreativeTabs GENETICSMOD_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs GENETICSMOD_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -18,11 +18,6 @@ public class CreativeTabGeneticsMod
             return ModItems.whitePeaPlant;
         }//end getTabIconItem()
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Genetics Mod";
-        }//end String getTranslatedLabel()
 
     };
 

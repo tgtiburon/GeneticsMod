@@ -1,3 +1,4 @@
 item.geneticsmod:whitePeaPlant.name=White Pea Plant
 item.geneticsmod:creeptonianSword.name=Creeptonian Sword
 tile.geneticsmod:beehive.name=Bee Hive
+itemGroup.geneticsmod=Genetics Mod
