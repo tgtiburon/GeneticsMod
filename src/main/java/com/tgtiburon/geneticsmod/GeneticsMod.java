@@ -3,6 +3,7 @@ package com.tgtiburon.geneticsmod;
 import com.tgtiburon.geneticsmod.handler.ConfigurationHandler;
 import com.tgtiburon.geneticsmod.init.ModBlocks;
 import com.tgtiburon.geneticsmod.init.ModItems;
+import com.tgtiburon.geneticsmod.init.Recipes;
 import com.tgtiburon.geneticsmod.proxy.IProxy;
 import com.tgtiburon.geneticsmod.reference.Reference;
 import com.tgtiburon.geneticsmod.utilities.LogHelper;
@@ -12,6 +13,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.oredict.OreDictionary;
 
 /**
  * Created by Tony on 7/11/2014.
@@ -54,6 +56,9 @@ public class GeneticsMod
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+
+        //register my recipes
+        Recipes.init();
         //register guis, tile entities
         LogHelper.fatal("Initialization Complete!");
 
@@ -66,6 +71,14 @@ public class GeneticsMod
     {
         // run after other mods have initialized
         LogHelper.info("Post Initialization Complete!");
+
+        // For debugging purposes
+        for (String oreName : OreDictionary.getOreNames())
+        {
+            LogHelper.info(oreName);
+            OreDictionary.getOres(oreName);
+
+        }
 
     } //end public void postInit()
 
